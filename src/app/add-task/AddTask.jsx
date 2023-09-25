@@ -109,13 +109,13 @@ const AddTask = () => {
                  value={task.status}
                 >
                   <option value="none"  disabled>---Select Status ----</option>
-                  <option value="Pending">Pending</option>
-                  <option value="Complete">Complete</option>
+                  <option value="pending">Pending</option>
+                  <option value="completed">Complete</option>
                 </select>
                 </div>
                 {/*Button */}
                 <div className='mt-4 flex justify-center'>
-                  <button className='bg-blue-600 py-2 px-3 rounded-lg hover:bg-blue-800'>Add Todo</button>
+                  <button className='bg-blue-600 py-2 px-3 rounded-lg hover:bg-blue-800'>Add Task {" "}</button>
                   <button className='bg-red-600 py-2 px-5 ml-2 rounded-lg hover:bg-blue-800'>Clear</button>
                   
                 </div>

@@ -15,7 +15,7 @@ async function loadTasks(userId){
     }
 }
     useEffect(()=>{
-        if(context){
+        if(context.user){
             loadTasks(context.user._id);
         }
     
